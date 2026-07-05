@@ -1,144 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Al Khyam Marquee</title>
+  <meta charset="UTF,8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alkhyam Banquet Hall</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-body{
-background:#fffaf5;
-color:#333;
-}
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-header{
-background:#7a0019;
-color:white;
-padding:15px 50px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-header h2{
-color:gold;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-weight:bold;
-}
-
-.hero{
-height:90vh;
-background:url("marquee.jpeg") center/cover no-repeat;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-}
-
-.overlay{
-background:rgba(0,0,0,.55);
-padding:50px;
-border-radius:15px;
-}
-
-.overlay h1{
-color:gold;
-font-size:55px;
-}
-
-.overlay p{
-color:white;
-font-size:22px;
-margin:20px 0;
-}
-
-.btn{
-display:inline-block;
-padding:15px 35px;
-background:gold;
-color:black;
-text-decoration:none;
-border-radius:8px;
-font-weight:bold;
-}
-
-section{
-padding:70px 20px;
-text-align:center;
-}
-
-h2{
-color:#7a0019;
-margin-bottom:20px;
-}
-
-footer{
-background:#7a0019;
-color:white;
-padding:20px;
-text-align:center;
-}
-</style>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h2>Al Khyam Marquee</h2>
+    <div class="logo">
+        <h2>Alkhyam Banquet Hall</h2>
+    </div>
 
-<nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Gallery</a>
-<a href="#">Contact</a>
-</nav>
-
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#pricing">Packages</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<div class="hero">
+<section class="hero" id="home">
 
-<div class="overlay">
+<div class="overlay"></div>
 
-<h1>Al Khyam Marquee</h1>
+<div class="hero-content">
 
-<p>Creating Unforgettable Wedding Memories</p>
+<h4>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h4>
 
-<a class="btn" href="#">Book Now</a>
+<h1>Welcome to Alkhyam Banquet Hall</h1>
 
+<p>
+Begin your beautiful journey with the blessings of Allah.
+From Nikah and Walima to Engagements and Family Celebrations,
+we create unforgettable memories in a luxurious atmosphere.
+</p>
+
+<div class="buttons">
+<a href="#booking" class="btn">Book Now</a>
+<a href="tel:+923001234567" class="btn2">Call Now</a>
 </div>
 
 </div>
 
-<section>
+</section>
 
+<section id="about">
 <h2>About Us</h2>
 
 <p>
-Al Khyam Marquee provides a beautiful venue for weddings,
-engagements, birthdays and corporate events with elegant décor
-and excellent hospitality.
+Alkhyam Banquet Hall is one of the finest wedding venues, offering elegant décor, spacious halls, premium catering, and exceptional hospitality to make every event memorable.
 </p>
 
 </section>
 
-<footer>
-
-© 2026 Al Khyam Marquee
-
-</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
